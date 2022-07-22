@@ -3,16 +3,25 @@ body {
     flex-direction: column;
     max-width: 50%;
     margin: auto;
-    background-color:rgb(96, 151, 96);
+    background-image: url("images/woodgrain.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:rgb(112, 151, 121);
+    font-family:luminari, fantasy;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: beige;
+    background-image: url("images/bluetexture.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgb(191, 216, 215);
 }
 
 .navlist {
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     list-style-type: none;
     font-size: 18pt;
@@ -24,11 +33,17 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: rgb(90, 70, 8);
+    color: black;
 }
 
 .navlist a:hover {
-    color: rgb(22, 112, 22);
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+figcaption{
+    font-size: 12pt;
+    font-style: italic;
 }
 
 figcaption a {
@@ -44,22 +59,31 @@ figcaption a:hover {
     justify-content: center;
     text-align: center;
     flex: 1 0 auto;
-    background-color: blanchedalmond;
+    background-image: url("images/whitetexture.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:beige;
 }
 
 h2 {
-    font-size: 20pt;
+    font-size: 28pt;
 }
 
-
-figcaption{
-    font-size: 10pt;
-    
+p {
+    font-size: 18pt;
+    font-weight:400;
 }
+
 
 #mainHeading {
     color: red;
-    background-color: blanchedalmond;
+    text-shadow: 1px 1px 2px black, 2px 2px 25px black, 4px 4px 12px purple;
+    background-image: url("images/whitetexture.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: beige;
     padding: 20px;
     text-align: center;
 }
@@ -76,5 +100,6 @@ figcaption{
 }
 
 footer {
+    color:white;
     flex-shrink: 0;
 }
