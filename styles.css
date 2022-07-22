@@ -1,5 +1,24 @@
 body {
-   margin: 8px;
+    margin: 8px;
+    background-color:blanchedalmond;
+}
+
+.navlist {
+    list-style-type: none;
+    font-size: 18pt;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(12, 12, 143);
+}
+
+a:hover {
+    color: rgb(22, 112, 22);
+}
+
+figcaption{
+    font-size: 10pt;
 }
 
 #mainHeading {
@@ -8,4 +27,8 @@ body {
 
 .funParagraph {
     color: green;
+}
+
+.photo {
+    padding: 12px;
 }
