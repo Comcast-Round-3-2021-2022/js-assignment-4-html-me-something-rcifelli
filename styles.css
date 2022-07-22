@@ -1,21 +1,46 @@
 body {
-    margin: 8px;
-    background-color:blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+    background-color:rgb(33, 72, 15);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: beige;
 }
 
 .navlist {
+    display:flex;
+    justify-content: space-evenly;
     list-style-type: none;
     font-size: 18pt;
 }
 
 a {
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: rgb(12, 12, 143);
+    color: rgb(90, 70, 8);
 }
 
 a:hover {
     color: rgb(22, 112, 22);
 }
+
+.column {
+    
+    flex: 1 0 auto;
+    background-color: blanchedalmond;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
 
 figcaption{
     font-size: 10pt;
@@ -23,6 +48,8 @@ figcaption{
 
 #mainHeading {
     color: red;
+    padding: 20px;
+    text-align: center;
 }
 
 .funParagraph {
@@ -30,5 +57,12 @@ figcaption{
 }
 
 .photo {
-    padding: 12px;
+    max-width: 600px;
+    max-height: auto;
+    padding: 6px;
+    border: 8px solid black;
+}
+
+footer {
+    flex-shrink: 0;
 }
